@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BitWise.cs" />
+    <Compile Include="CryptoHelper.cs" />
     <Compile Include="FRMGIAUTIN.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,6 +66,7 @@
     <Compile Include="frmmenu.Designer.cs">
       <DependentUpon>frmmenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="LSBHelper.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FRMGIAIMA.resx">
@@ -104,6 +107,9 @@
     <Content Include="ANHBMP\o.bmp" />
     <Content Include="ANHBMP\oo.bmp" />
     <Content Include="ICON\Icon-thuong-thuong-phong-vu-9.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ANHCOMA\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

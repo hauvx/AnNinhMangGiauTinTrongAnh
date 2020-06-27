@@ -35,13 +35,13 @@
             this.tHOÁTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.TXTMATKHẨU = new System.Windows.Forms.TextBox();
+            this.TXTMATKHAU = new System.Windows.Forms.TextBox();
             this.TXTTHONGTIN = new System.Windows.Forms.TextBox();
             this.BTNGIAIMA = new System.Windows.Forms.Button();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.ANHGIAIMA = new System.Windows.Forms.PictureBox();
             this.menuStrip1.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ANHGIAIMA)).BeginInit();
             this.SuspendLayout();
             // 
@@ -52,7 +52,7 @@
             this.mENUToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(718, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(945, 28);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -72,6 +72,7 @@
             this.cHỌNẢNHToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
             this.cHỌNẢNHToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.cHỌNẢNHToolStripMenuItem.Text = "CHỌN ẢNH";
+            this.cHỌNẢNHToolStripMenuItem.Click += new System.EventHandler(this.cHỌNẢNHToolStripMenuItem_Click);
             // 
             // tHOÁTToolStripMenuItem
             // 
@@ -84,7 +85,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(68, 552);
+            this.label1.Location = new System.Drawing.Point(71, 704);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(79, 17);
             this.label1.TabIndex = 2;
@@ -93,23 +94,23 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(62, 629);
+            this.label2.Location = new System.Drawing.Point(65, 781);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(85, 17);
             this.label2.TabIndex = 2;
             this.label2.Text = "THÔNG TIN";
             // 
-            // TXTMATKHẨU
+            // TXTMATKHAU
             // 
-            this.TXTMATKHẨU.Location = new System.Drawing.Point(159, 552);
-            this.TXTMATKHẨU.Name = "TXTMATKHẨU";
-            this.TXTMATKHẨU.PasswordChar = '*';
-            this.TXTMATKHẨU.Size = new System.Drawing.Size(480, 22);
-            this.TXTMATKHẨU.TabIndex = 3;
+            this.TXTMATKHAU.Location = new System.Drawing.Point(162, 704);
+            this.TXTMATKHAU.Name = "TXTMATKHAU";
+            this.TXTMATKHAU.PasswordChar = '*';
+            this.TXTMATKHAU.Size = new System.Drawing.Size(480, 22);
+            this.TXTMATKHAU.TabIndex = 3;
             // 
             // TXTTHONGTIN
             // 
-            this.TXTTHONGTIN.Location = new System.Drawing.Point(159, 605);
+            this.TXTTHONGTIN.Location = new System.Drawing.Point(162, 757);
             this.TXTTHONGTIN.Multiline = true;
             this.TXTTHONGTIN.Name = "TXTTHONGTIN";
             this.TXTTHONGTIN.Size = new System.Drawing.Size(480, 64);
@@ -117,28 +118,29 @@
             // 
             // BTNGIAIMA
             // 
-            this.BTNGIAIMA.Location = new System.Drawing.Point(268, 691);
+            this.BTNGIAIMA.Location = new System.Drawing.Point(726, 725);
             this.BTNGIAIMA.Name = "BTNGIAIMA";
-            this.BTNGIAIMA.Size = new System.Drawing.Size(172, 23);
+            this.BTNGIAIMA.Size = new System.Drawing.Size(172, 73);
             this.BTNGIAIMA.TabIndex = 4;
             this.BTNGIAIMA.Text = "GIẢI MÃ ẢNH";
             this.BTNGIAIMA.UseVisualStyleBackColor = true;
+            this.BTNGIAIMA.Click += new System.EventHandler(this.BTNGIAIMA_Click);
             // 
-            // groupBox1
+            // groupBox3
             // 
-            this.groupBox1.Controls.Add(this.ANHGIAIMA);
-            this.groupBox1.Location = new System.Drawing.Point(35, 44);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(641, 488);
-            this.groupBox1.TabIndex = 5;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "ẢNH CHỨA THÔNG TIN";
+            this.groupBox3.Controls.Add(this.ANHGIAIMA);
+            this.groupBox3.Location = new System.Drawing.Point(35, 44);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(683, 618);
+            this.groupBox3.TabIndex = 5;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "ẢNH CHỨA THÔNG TIN";
             // 
             // ANHGIAIMA
             // 
             this.ANHGIAIMA.Location = new System.Drawing.Point(6, 21);
             this.ANHGIAIMA.Name = "ANHGIAIMA";
-            this.ANHGIAIMA.Size = new System.Drawing.Size(629, 461);
+            this.ANHGIAIMA.Size = new System.Drawing.Size(667, 587);
             this.ANHGIAIMA.TabIndex = 2;
             this.ANHGIAIMA.TabStop = false;
             // 
@@ -146,11 +148,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(718, 726);
-            this.Controls.Add(this.groupBox1);
+            this.ClientSize = new System.Drawing.Size(945, 883);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.BTNGIAIMA);
             this.Controls.Add(this.TXTTHONGTIN);
-            this.Controls.Add(this.TXTMATKHẨU);
+            this.Controls.Add(this.TXTMATKHAU);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
@@ -162,7 +164,7 @@
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FRMGIAIMA_FormClosing);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.ANHGIAIMA)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -177,10 +179,10 @@
         private System.Windows.Forms.ToolStripMenuItem tHOÁTToolStripMenuItem;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox TXTMATKHẨU;
+        private System.Windows.Forms.TextBox TXTMATKHAU;
         private System.Windows.Forms.TextBox TXTTHONGTIN;
         private System.Windows.Forms.Button BTNGIAIMA;
-        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.PictureBox ANHGIAIMA;
     }
 }
