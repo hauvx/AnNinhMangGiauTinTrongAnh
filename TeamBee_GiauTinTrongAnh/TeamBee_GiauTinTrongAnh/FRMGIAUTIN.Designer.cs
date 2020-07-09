@@ -121,15 +121,16 @@
             this.TXTTHONGTIN.Multiline = true;
             this.TXTTHONGTIN.Name = "TXTTHONGTIN";
             this.TXTTHONGTIN.Size = new System.Drawing.Size(784, 72);
-            this.TXTTHONGTIN.TabIndex = 4;
+            this.TXTTHONGTIN.TabIndex = 1;
             // 
             // TXTMATKHAU
             // 
             this.TXTMATKHAU.Location = new System.Drawing.Point(282, 801);
+            this.TXTMATKHAU.Multiline = true;
             this.TXTMATKHAU.Name = "TXTMATKHAU";
             this.TXTMATKHAU.PasswordChar = '*';
-            this.TXTMATKHAU.Size = new System.Drawing.Size(784, 22);
-            this.TXTMATKHAU.TabIndex = 4;
+            this.TXTMATKHAU.Size = new System.Drawing.Size(784, 34);
+            this.TXTMATKHAU.TabIndex = 2;
             // 
             // label3
             // 

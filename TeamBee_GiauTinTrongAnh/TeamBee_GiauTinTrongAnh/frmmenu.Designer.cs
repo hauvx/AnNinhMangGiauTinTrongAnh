@@ -60,7 +60,7 @@
             this.BTNGIAIMA.Location = new System.Drawing.Point(283, 62);
             this.BTNGIAIMA.Name = "BTNGIAIMA";
             this.BTNGIAIMA.Size = new System.Drawing.Size(128, 35);
-            this.BTNGIAIMA.TabIndex = 1;
+            this.BTNGIAIMA.TabIndex = 2;
             this.BTNGIAIMA.Text = "GIẢI MÃ ẢNH";
             this.BTNGIAIMA.UseVisualStyleBackColor = true;
             this.BTNGIAIMA.Click += new System.EventHandler(this.BTNGIAIMA_Click);
@@ -69,7 +69,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(529, 158);
+            this.ClientSize = new System.Drawing.Size(551, 158);
             this.Controls.Add(this.BTNGIAIMA);
             this.Controls.Add(this.BTNGIAUTIN);
             this.Controls.Add(this.label1);

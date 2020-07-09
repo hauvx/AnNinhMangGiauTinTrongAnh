@@ -16,7 +16,7 @@ namespace TeamBee_GiauTinTrongAnh
 
         private string inPath1;       //duong dan toi file anh can giau
 
-        private string inPath2;       // duong dan toi file anh can giai nen
+        private string inPath2="";       // duong dan toi file anh can giai nen
         public FRMGIAUTIN()
         {
             InitializeComponent();
@@ -54,8 +54,8 @@ namespace TeamBee_GiauTinTrongAnh
                 outPath = saveDialog1.FileName;
                 if (inPath1 == "")
                     MessageBox.Show("Bạn chưa chọn ảnh để giấu tin...");
-                else if (inPath2 == "")
-                    MessageBox.Show("Bạn chưa chọn nơi để lưu ảnh...");
+                
+
                 else if (TXTTHONGTIN.Text == "")
                     MessageBox.Show("Bạn chưa thông điệp để giấu tin...");
                 else if (TXTMATKHAU.Text == "")
@@ -74,6 +74,7 @@ namespace TeamBee_GiauTinTrongAnh
             else
             {
                 outPath = "";
+                MessageBox.Show("Bạn chưa chọn nơi để lưu ảnh...");
             }
            
             saveDialog1.Dispose();

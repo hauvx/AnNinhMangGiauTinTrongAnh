@@ -70,7 +70,7 @@
             // 
             this.cHỌNẢNHToolStripMenuItem.Name = "cHỌNẢNHToolStripMenuItem";
             this.cHỌNẢNHToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.cHỌNẢNHToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.cHỌNẢNHToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.cHỌNẢNHToolStripMenuItem.Text = "CHỌN ẢNH";
             this.cHỌNẢNHToolStripMenuItem.Click += new System.EventHandler(this.cHỌNẢNHToolStripMenuItem_Click);
             // 
@@ -78,7 +78,7 @@
             // 
             this.tHOÁTToolStripMenuItem.Name = "tHOÁTToolStripMenuItem";
             this.tHOÁTToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F4)));
-            this.tHOÁTToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.tHOÁTToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
             this.tHOÁTToolStripMenuItem.Text = "THOÁT";
             this.tHOÁTToolStripMenuItem.Click += new System.EventHandler(this.tHOÁTToolStripMenuItem_Click);
             // 
@@ -103,10 +103,11 @@
             // TXTMATKHAU
             // 
             this.TXTMATKHAU.Location = new System.Drawing.Point(162, 704);
+            this.TXTMATKHAU.Multiline = true;
             this.TXTMATKHAU.Name = "TXTMATKHAU";
             this.TXTMATKHAU.PasswordChar = '*';
-            this.TXTMATKHAU.Size = new System.Drawing.Size(480, 22);
-            this.TXTMATKHAU.TabIndex = 3;
+            this.TXTMATKHAU.Size = new System.Drawing.Size(480, 30);
+            this.TXTMATKHAU.TabIndex = 1;
             // 
             // TXTTHONGTIN
             // 
@@ -114,14 +115,14 @@
             this.TXTTHONGTIN.Multiline = true;
             this.TXTTHONGTIN.Name = "TXTTHONGTIN";
             this.TXTTHONGTIN.Size = new System.Drawing.Size(480, 64);
-            this.TXTTHONGTIN.TabIndex = 3;
+            this.TXTTHONGTIN.TabIndex = 2;
             // 
             // BTNGIAIMA
             // 
             this.BTNGIAIMA.Location = new System.Drawing.Point(726, 725);
             this.BTNGIAIMA.Name = "BTNGIAIMA";
             this.BTNGIAIMA.Size = new System.Drawing.Size(172, 73);
-            this.BTNGIAIMA.TabIndex = 4;
+            this.BTNGIAIMA.TabIndex = 3;
             this.BTNGIAIMA.Text = "GIẢI MÃ ẢNH";
             this.BTNGIAIMA.UseVisualStyleBackColor = true;
             this.BTNGIAIMA.Click += new System.EventHandler(this.BTNGIAIMA_Click);
